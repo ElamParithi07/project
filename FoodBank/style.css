@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    margin-top: 20px;
+}
+nav p{
+    margin-left: 50px;
+    margin-right: 30pX;
+    font-size: 40px;
+}
+nav ul{
+    text-align: center;
+    padding:0px 30px;
+    width: 70%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+nav ul li a:hover {
+    color: #f74f22;
+}
+nav button{
+    color: #f74f22;
+    text-align: center;
+    border-radius: 50px;
+    width: 110px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 100px;
+    border:1px solid #f74f22;
+    margin-left: 20px;
+    background-color: white;
+    font-weight: 600;
+}
+nav button:hover , nav button:active{
+    color: white;
+    background-color: #f74f22;
+    transition: 0.2s;
+}
+#logo {
+    color: #f74f22;
+}
+#local {
+    color: #f74f22;
+}
+.container {
+    margin-top: 30px;
+}
+.left {
+    margin-top: 140px;
+    margin-left: 60px;
+}
+.left h6{
+    font-size: 40px;
+}
+.left button{
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 110px;
+    height: 60px;
+    border:1px solid #f74f22;
+    background-color: #f74f22;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.left button:hover , .left button:active{
+    color:  white;
+    background-color:#FFAC00;
+    border: 1px solid #FFAC00;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+.left p{
+    width: 600px;
+}
+.slide {
+    margin-bottom: 60px;
+}
+.slide img {
+    margin-top: 60px;
+    margin-left: 450px;
+    height: 450px;
+    width: 700px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+    display: block;
+}
+.slidetxt {
+    margin-top: 50px;
+    text-align: center;
+}
+.slide img:hover, .slide img:active {
+    padding: 10px;
+}
+section {
+    width: 85%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+section .row .row {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+}
+section img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.subcribe {
+    margin-top: 60px;
+}
+.card {
+    width: 80%;
+    padding: 40px;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.card button{
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 120px;
+    height: 60px;
+    border:1px solid #f74f22;
+    background-color: #f74f22;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 90px;
+    float: right;
+}
+.card button:hover , .card button:active{
+    color:  white;
+    background-color:#FFAC00;
+    border: 1px solid #FFAC00;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+.card h2 {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.card input {
+    text-align: center;
+    border-radius: 50px;
+    width: 500px;
+    height: 50px;
+    border:1px solid black;
+    margin-top: 30px;
+}
+footer {
+    background-color: #222328;
+    color: white;
+}
+.content {
+    width: 80%;
+    padding: 30px;
+    margin-left: 180px;
+}
+.content .row {
+    margin-top: 50px;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+.content h5,p {
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.footlogo #foot{
+    font-size: 30px;
+    margin-left: 0;
+}
+.footlogo p{
+    margin-left: 0;
+}
+.footlogo button{
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 110px;
+    height: 60px;
+    border:1px solid #f74f22;
+    background-color: #f74f22;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.footlogo button:hover , .footlogo button:active{
+    color:  white;
+    background-color:#FFAC00;
+    border: 1px solid #FFAC00;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+.content a:hover{
+    color: #f74f22;
+}
